@@ -14,8 +14,6 @@ public class InterfaceCreation implements Summation {
     }
     public static void main(String args[]){
         InterfaceCreation ob = new InterfaceCreation();
-        //ob.sum(1,2);
-        //int sum =;
         ob.printSum(ob.sum(1,2));
     }
 }
