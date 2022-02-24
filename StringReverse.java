@@ -7,7 +7,7 @@ public class StringReverse {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter String");
         String sentence = scan.nextLine();
-
+        System.out.println("Adding redundant line for merging");
         System.out.println("Input String: " + sentence);
         String words[] = sentence.split(" ");
         String reversesentense = "";
@@ -23,7 +23,7 @@ public class StringReverse {
         System.out.println("Reversed String: " + reversesentense);
     }
     public static void main(String[] args){
-        StringReverse ob = new StringReverse();
-        ob.ReverseMethod();
+        StringReverse obj = new StringReverse();
+        obj.ReverseMethod();
     }
 }
