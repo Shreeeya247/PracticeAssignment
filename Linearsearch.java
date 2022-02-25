@@ -15,14 +15,14 @@ class GFG
 		return -1;
 	}
 
+	// Driver code
 	public static void main(String args[])
 	{
-		int arr[] = { 2, 56, 4, 104, 4 };
-		int var;
-		var = 10;
+		int array[] = { 50, 3, 499, 10, 90 };
+		int limit = 10;
 
 		// Function call
-		int result = search(arr, var);
+		int result = search(arr, x);
 		if (result == -1)
 			System.out.print(
 				"Element is not present in array");
