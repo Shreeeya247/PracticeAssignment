@@ -18,12 +18,14 @@ class GFG
 	// Driver code
 	public static void main(String args[])
 	{
+
 		int array[] = { 50, 36, 49, 1, 9 };
 		int lim;
 		lim = 10;
 
 		// Function call
 		int result = search(arr, lim);
+
 		if (result == -1)
 			System.out.print(
 				"Element is not present in array");
